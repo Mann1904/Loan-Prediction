@@ -186,6 +186,7 @@ Model| CV Score
 LogisticRegression    |     Mean = 0.8097 , std = 0.0507
 DecisionTreeClassification |  Mean = 0.8097, std = 0.0507
 RandomForestClassification | Mean = 0.8063, std = 0.0512
-XgBoostClassification | Mean = 0.8111, std = 0.0517
-AdaBoostClassification | Mean = 0.8145 | std = 0.0517
+AdaBoostClassification | Mean = 0.8192  std = 0.0486
+XgBoostClassification | Mean = 0.8208 std = 0.0497
+
 
