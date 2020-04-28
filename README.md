@@ -155,7 +155,7 @@ Check the distribution of new created variables :
 
 We can see that TotalIncome is not normally distributed and there are lots of outliers and also EMI & Debt_Amount_Ratio are not normally distributed.
    
-Normalize TotalIncome variable :  
+Log transformation on TotalIncome variable :  
 data['TotalIncome'] = np.log(data['TotalIncome']) 
 
 ![alt text](https://github.com/Mann1904/Loan-Prediction/blob/master/rmd-file-files/new%20column-4.png)
@@ -164,13 +164,13 @@ Now, We can see that distribusion of TotalIncome is normal.
 
 
 
-Normalize EMI variable : 
+Cube root transformation on EMI variable : 
 data['EMI'] = (data['EMI']**(1/3))
 
 ![alt text](https://github.com/Mann1904/Loan-Prediction/blob/master/rmd-file-files/new%20column-5.png)
 
 
-Normalize Debt_Amount_Ratio variable : 
+Cube root transformation on Debt_Amount_Ratio variable : 
 data['Debt_Amount_Ratio'] = (data['Debt_Amount_Ratio']**(1/3))
 
 ![alt text](https://github.com/Mann1904/Loan-Prediction/blob/master/rmd-file-files/new%20column-6.png)
