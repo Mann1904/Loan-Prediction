@@ -187,5 +187,5 @@ LogisticRegression    |     Mean = 0.8097 , std = 0.0507
 DecisionTreeClassification |  Mean = 0.8097, std = 0.0507
 RandomForestClassification | Mean = 0.8063, std = 0.0512
 XgBoostClassification | Mean = 0.8111, std = 0.0517
-AdaBoostClassification | Mean = 0.8159 std = 0.0546
+AdaBoostClassification | Mean = 0.8145 | std = 0.0517
 
